@@ -1,3 +1,53 @@
-.display {
-
+.menuBackground {
+    width: 40%;
+    background: #f0ecec;
+    display: flex;
+    justify-content: center;
 }
+
+.box {
+    position: fixed;
+    background: white;
+    width: 22rem;
+    height: 20rem;
+    margin: 2rem auto;
+    border-radius: .5rem;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menuOption {
+    // color: white;
+    border: solid 2px #057dec;
+    background-color: white;
+    border-radius: 25rem;
+    list-style-type: none;
+    display: block;
+    width: 12rem;
+    text-align: left;
+    margin: 1rem;
+    padding: 0;
+}
+
+.menuOption:hover {
+    border: solid 2px lightskyblue;
+    background-color: lightskyblue;
+    
+    .link {
+        color: white;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: #057dec;
+    font-weight: 300;
+}
+
+.link h4 {
+    margin: .2rem 1rem;
+}
+
