@@ -1,11 +1,13 @@
 import React from 'react';
 
+import NavBar from '../NavBar';
 import Menu from '../Menu';
 import styles from './styles.module.scss';
 
 const Main = () => (
   <div className={styles.content}>
-      <Menu />
+    <NavBar />
+    <Menu />
   </div>
 );
 

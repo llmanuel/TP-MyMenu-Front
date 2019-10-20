@@ -3,6 +3,8 @@
     width: 30rem;
     height: 40rem;
     margin: 1rem auto;
+    border-radius: .5rem;
+    padding-top: 1rem;
 }
 
 .title {
@@ -11,6 +13,8 @@
     padding-top: 1rem;
     color: black;
     font-weight: 2px;
+    display: inline;
+    padding-right: 8rem;
 }
 
 .img {
@@ -40,4 +44,12 @@
     margin: 3rem;
     color: rgb(61, 60, 60);
     font-weight: 1px;
+}
+
+.dailyMenu {
+    border: 2px solid red;
+    background: red;
+    border-radius: .5rem;
+    display: inline;
+    color: white;
 }
